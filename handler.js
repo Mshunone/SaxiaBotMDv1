@@ -765,8 +765,8 @@ module.exports = {
                     if (xp > 9999999999999999999999) m.reply('Ngecit -_-') // Hehehe
                     else m.exp += xp
                     if (!isPrems && plugin.limit && db.data.users[m.sender].limit < plugin.limit * 1) {
-                     //   this.reply(m.chat, `Limit anda habis, silahkan beli melalui *${usedPrefix}buy*`, m)
-                        this.sendButton(m.chat, `Limit anda habis, silahkan beli melalui *${usedPrefix}buyall* atau *${usedPrefix}hadiah*`, author, null, [['Buy Limit', '/buyall'], ['Hadiah', '/hadiah']], m)
+                     //   this.reply(m.chat, `Limit loe habis dek, silahkan beli melalui *${usedPrefix}buy*`, m)
+                        this.sendButton(m.chat, `Limit loe habis dek, silahkan beli melalui *${usedPrefix}buyall* atau *${usedPrefix}hadiah*`, author, null, [['Buy Limit', '/buyall'], ['Hadiah', '/hadiah']], m)
                         continue // Limit habis
                     }
                     if (plugin.level > _user.level) {
@@ -899,10 +899,10 @@ module.exports = {
                 }
                 break
         case 'promote':
-            text = (chat.sPromote || this.spromote || conn.spromote || '@user ```is now Admin```')
+            text = (chat.sPromote || this.spromote || conn.spromote || '@user ```Anjay jadi Admin```')
         case 'demote':
             if (!text)
-                text = (chat.sDemote || this.sdemote || conn.sdemote || '@user ```is no longer Admin```')
+                text = (chat.sDemote || this.sdemote || conn.sdemote || '@user ```Kasian Di Demote Admin```')
             text = text.replace('@user', '@' + participants[0].split('@')[0])
             if (chat.detect)
                 this.sendMessage(id, { text, mentions: this.parseMention(text) })
@@ -919,7 +919,7 @@ module.exports = {
             let chat = db.data.chats[msg.key.remoteJid] || {}
             if (chat.delete) return
             await this.reply(msg.key.remoteJid, `
-Terdeteksi @${participant.split`@`[0]} telah menghapus pesan
+Terdeteksi ni si @${participant.split`@`[0]} menghapus pesan
 Untuk mematikan fitur ini, ketik
 *.enable delete*
 `.trim(), msg, {
@@ -950,7 +950,7 @@ conn.ws.on('CB:call', async function callUpdatePushToDb(json) {
         let sentMsg = await conn.reply(callerId, `Sistem otomatis block, jangan menelepon bot silahkan hubungi owner untuk dibuka!`)
         await conn.sendContact(callerId, data.map(([id, name]) => [id, name]), sentMsg)
         await conn.updateBlockStatus(callerId, 'block')
-        await conn.reply(owner[0]+'@s.whatsapp.net', `*NOTIF CALLER BOT!*\n\n@${callerId.split`@`[0]} telah menelpon *${conn.user.name}*\n\n ${callerId.split`@`[0]}\n`, null, { mentions: [callerId] })
+        await conn.reply(owner[0]+'@s.whatsapp.net', `*NOTIP CALLER BOT!*\n\n@${callerId.split`@`[0]} telah menelpon *${conn.user.name}*\n\n ${callerId.split`@`[0]}\n`, null, { mentions: [callerId] })
         conn.delay(10000) // supaya tidak spam
     })
 
@@ -960,7 +960,7 @@ conn.ws.on('CB:call', async (json) => {
     const callerId = json.content[0].attrs['call-creator']
     if (json.content[0].tag == 'offer') {
     let pa7rick = await conn.sendContact(callerId, global.owner)
-    conn.sendMessage(callerId, { text: `Sistem otomatis block!\nJangan menelpon bot!\nSilahkan Hubungi Owner Untuk Dibuka !`}, { quoted : pa7rick })
+    conn.sendMessage(callerId, { text: `Sistem otomatis block!\nUdah di bilang jangan telpon!\nYok Hubungi Owner Untuk Dibuka yok !`}, { quoted : pa7rick })
     await sleep(8000)
     await conn.updateBlockStatus(callerId, "block")
     }
@@ -976,19 +976,19 @@ conn.ws.on('CB:call', async (json) => {
           return
         break
     }
-    await this.sendMessage(from, 'Maaf, karena anda menelfon bot. anda diblokir otomatis', MessageType.extendedText)
+    await this.sendMessage(from, 'Blog, karena Lu menelfon bot. lu diblokir otomatis', MessageType.extendedText)
     await this.updateBlockStatus(from, 'block')
   }
 }*/
 
 global.dfail = (type, m, conn) => {
     let msg = {
-        rowner: 'Perintah ini hanya dapat digunakan oleh _*OWWNER!1!1!*_',
-        owner: 'Perintah ini hanya dapat digunakan oleh _*Owner Bot*_!',
+        rowner: 'Perintah ini hanya dapat dipakek amak _*OWWNER DEK*_',
+        owner: 'Perintah ini hanya dapat dipakek amak _*Owner Gwe*_!',
         mods: 'Perintah ini hanya dapat digunakan oleh _*Moderator*_ !',
         premium: '*Premium*\n1 Months *IDR 10000*\n1 Years *IDR 90000*\n\nHubungi *owner* kami..', 
         banned: 'Perintah ini hanya untuk pengguna yang terbanned..',
-        created: 'Perintah ini hanya pengguna yang sudah membuat base\nContoh: #createbase Aine',
+        created: 'Perintah ini hanya pengguna yang sudah membuat base\nContoh: #createbase Bot',
         group: 'Perintah ini hanya dapat digunakan di grup!',
         private: 'Perintah ini hanya dapat digunakan di Chat Pribadi!',
         admin: 'Perintah ini hanya untuk *Admin* grup!',
