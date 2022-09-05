@@ -8,11 +8,11 @@ let name = m.fromMe ? conn.user : conn.contacts[m.sender]
 
 let jarot = 'https://telegra.ph/file/966adedcd3b40f50fa794.jpg'
 
-await conn.send2ButtonImg(m.chat, jarot, "*BIMLEK🐦*", 'ngapain banh tag” dia', 'OWNER', '.owner', 'KEMBALI', '.menu', m)                        
+await conn.send2ButtonImg(m.chat, gwehj, "*BIMLEK🐦*", 'ngapain banh tag” dia', 'OWNER', '.owner', 'KEMBALI', '.menu', m)                        
 
 }
 
-handler.customPrefix = '/@6285850539404/i
+handler.customPrefix = '/@6283805685278/i
 
 handler.command = new RegExp
 
