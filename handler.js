@@ -32,8 +32,8 @@ module.exports = {
                 if (typeof user !== 'object') db.data.users[m.sender] = {}
                 if (user) {
                     if (!isNumber(user.exp)) user.exp = 0
-                    if (!isNumber(user.limit)) user.limit = 1000
-                    if (!isNumber(user.joinlimit)) user.joinlimit = 1
+                    if (!isNumber(user.limit)) user.limit = 15
+                    if (!isNumber(user.joinlimit)) user.joinlimit = 0
                     if (!isNumber(user.money)) user.money = 100000
                     if (!isNumber(user.bank)) user.bank = 100000
                     if (!isNumber(user.lastclaim)) user.lastclaim = 0
@@ -284,8 +284,8 @@ module.exports = {
                     if (!isNumber(user.lastlatih)) user.lastlatih = 0
                 } else db.data.users[m.sender] = {
                     exp: 0,
-                    limit: 1000,
-                    joinlimit: 1,
+                    limit: 15,
+                    joinlimit: 0,
                     spammer: 0,
                     limitspam: 0,
                     money: 10000,
@@ -303,7 +303,7 @@ module.exports = {
                     afkReason: '',
                     pasangan: '',
                     banned: false,
-                    premium: false,
+                    premium: true,
                     created: false,
                     warn: 0,
                     pc: 0,
