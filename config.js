@@ -14,11 +14,11 @@ global.fotonya4 = 'https://telegra.ph/file/00ca947f49354f6c108da.jpg' //ini juga
 global.fotonya5 = 'https://telegra.ph/file/00ca947f49354f6c108da.jpg' //ini juga ganti
 global.fotonya6 = 'https://telegra.ph/file/00ca947f49354f6c108da.jpg' //ini ganti pakai foto sosialmedia mu
 global.fotonya7 = 'https://telegra.ph/file/00ca947f49354f6c108da.jpg'
-global.instagram = 'https://instagram.com/Jarotr_'
+global.instagram = 'https://www.instagram.com/mfordxcl/'
 global.dana = '--'
 global.gopay = '--'
 global.shopay = '--'
-global.yt = 'https://youtube.com/channel/UCW7iXlE7TgvJMIXQck4NYBQ'
+global.GrubWa = 'https://chat.whatsapp.com/GeWPLmclHaVHsF0GymCcJz'
 global.mods = [] // Want some help?
 global.price1 = 'List SEWA nya Tuan\n\n》PERBULAN Rp 10.000\nMAKSIMAL 2 GRUP\n》2 BULAN 20.000\nMAKSIMAL 3 GRUP \n》3 BULAN Rp 30.000\nMAKSIMAL 2 GRUP'
 global.fla = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=smurfs-logo&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&text='
