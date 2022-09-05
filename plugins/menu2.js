@@ -36,13 +36,13 @@ let tags = {
 const defaultMenu = {
   before: `
 ┏─────────────────⬣
-┆ 𝑯𝒂𝒊, %ucapan %name!👋
+┆ Hai, %ucapan %name!👋
 ┗┬──────────────┈ ⳹
 ┏┆♠︎ *Limit:* : %limit
 ┆┆♠︎ *Level:* : %level
 ┆┆♠︎ *XP:* : %exp
 ┗┬──────────────┈ ⳹
-┏┤   *𝐊𝐚𝐥𝐞𝐧𝐝𝐞𝐫*
+┏┤   *Kalender*
 ┆┗──────────────┈ ⳹
 ┆♠︎ *Hari:* : %week
 ┆♠︎ *Tanggal:* : %date
@@ -50,10 +50,10 @@ const defaultMenu = {
 ┆♠︎ *Waktu Wita* : %wita 
 ┆♠︎ *Waktu Wit* : %wit 
 ┗┬──────────────┈ ⳹
-┏┤ *𝐁𝐨𝐭 𝐈𝐧𝐟𝐨*
+┏┤ *Bot Info*
 ┆┗──────────────┈ ⳹
 ┆♠︎ *Limit* : Ⓛ 
-┆♠︎ *Premium* : Ⓟ
+┆♠︎ *Premium* : Ⓟ yok beli cuma 5k
 ┆♠︎ *Uptime:* : %uptime (%muptime)
 ┆♠︎ *Run Bot* : heroku
 ┗─────────────────⬣
@@ -184,8 +184,8 @@ let handler = async (m, { conn, usedPrefix: _p }) => {
                             hydratedFooterText:'Ⓟ premium | Ⓛ limit',
                             hydratedButtons: [{
                                 urlButton: {
-                                    displayText: '【𝙔𝙤𝙪𝙩𝙪𝙗𝙚⛽】',
-                                    url: 'https://youtube.com/channel/UCW7iXlE7TgvJMIXQck4NYBQ'
+                                    displayText: '【ytta⛽】',
+                                    url: 'https://chat.whatsapp.com/GeWPLmclHaVHsF0GymCcJz'
                                 }
                             }, {
                                 quickReplyButton: {
