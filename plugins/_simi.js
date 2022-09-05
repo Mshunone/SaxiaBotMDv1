@@ -18,7 +18,7 @@ handler.before = async (m) => {
 
         let json = await res.json()
 
-        if (json.success == "Aku tidak mengerti apa yang kamu katakan.Tolong ajari aku.") return m.reply('simi nya gk tau bang')
+        if (json.success == "Bot kgk mengerti apa yang lu omong.Tutor in dek.") return m.reply('simi nya gk tau bang')
 
         m.reply(json.success)
 
