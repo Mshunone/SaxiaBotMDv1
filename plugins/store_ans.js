@@ -23,7 +23,7 @@ let jarot = `
                 {
                urlButton: {
                displayText: 'Store Sewa Bot',
-               url: 'https://wa.me/6285850539404?text=assalamualaikum'
+               url: 'https://wa.me/6283805685278?text=assalamualaikum'
              }
            }]
          }
