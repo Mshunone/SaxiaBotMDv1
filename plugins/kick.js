@@ -8,7 +8,7 @@ let fs = require('fs')
 
   let users = aki.filter(u => !(u == ownerGroup || u.includes(conn.user.jid)))
 
-  wayy = '_*Asik Dapet Jatah Kick*_'
+  wayy = '_*Jangan mainin kick asw. Pakek seperlunya aja*_'
 
   for (let i of users) {
 
