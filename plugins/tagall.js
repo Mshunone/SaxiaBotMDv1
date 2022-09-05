@@ -1,5 +1,5 @@
 let handler = async(m, { conn, text, participants }) => {
-  let teks = ` ╭─❑ 〔 ıll TᗩGᗩᒪᒪ llı 〕❑─
+  let teks = ` ╭─❑ 〔 TAG ALL MOMEND 〕❑─
 ═══════❍ 
 *PESAN DARI ADMIN :* 
 *❑─(  ${text ? text : 'Tidak ada pesan'} )─❑*\n_______\n`
