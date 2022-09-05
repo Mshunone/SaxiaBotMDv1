@@ -36,13 +36,13 @@ let tags = {
 const defaultMenu = {
   before: `
 ┏─────────────────⬣
-┆ 𝑯𝒂𝒊, %ucapan %name!👋
+┆ Hai, %ucapan %name!👋
 ┗┬──────────────┈ ⳹
 ┏┆⬡ *Limit:* : %limit
 ┆┆⬡ *Level:* : %level
 ┆┆⬡ *XP:* : %exp
 ┗┬──────────────┈ ⳹
-┏┤   *𝐊𝐚𝐥𝐞𝐧𝐝𝐞𝐫*
+┏┤   *Kalender*
 ┆┗──────────────┈ ⳹
 ┆⬡ *Hari:* : %week
 ┆⬡ *Tanggal:* : %date
@@ -50,13 +50,13 @@ const defaultMenu = {
 ┆⬡ *Waktu Wita* : %wita 
 ┆⬡ *Waktu Wit* : %wit 
 ┗┬──────────────┈ ⳹
-┏┤ *𝐁𝐨𝐭 𝐈𝐧𝐟𝐨*
+┏┤ *Info Bot*
 ┆┗──────────────┈ ⳹
 ┆⬡ *Limit* : Ⓛ 
-┆⬡ *Premium* : Ⓟ
+┆⬡ *Premium* : Ⓟ yok beli cuman 5k
 ┆⬡ *Uptime:* : %uptime (%muptime)
 ┆⬡ *Run Bot* : Okteto/heroku
-┆⬡ *Ig Owner* : instagram.com/oscarbotz_
+┆⬡ *OWNER Bilike* : Hallo banh
 ┗─────────────────⬣
 %readmore`.trimStart(),
   header: '╭─❑ 〔 %category 〕 ❑─\n┃',
@@ -179,17 +179,17 @@ let handler = async (m, { conn, usedPrefix: _p }) => {
                         hydratedTemplate: {
                             imageMessage: message.imageMessage,
                             hydratedContentText: text.trim(),
-                            hydratedFooterText:'                『 𝑱𝑨𝑹𝑶𝑻 𝑶𝑭𝑭𝑪 』',
+                            hydratedFooterText:'                『 SaxiaBot 』',
                             hydratedButtons: [{
                               urlButton: {
                                     displayText: '𝙂𝙧𝙤𝙪𝙥 🌏',
-                                    url: 'https://chat.whatsapp.com/IqZke0cAG6G3iVsnB9myfL'
+                                    url: 'chat.whatsapp.com/GeWPLmclHaVHsF0GymCcJz'
                                 }
                                 
                             }, {
                               urlButton: {
-                                    displayText: '𝙔𝙤𝙪𝙏𝙪𝙗𝙚 📺',
-                                    url: 'https://youtube.com/channel/UCW7iXlE7TgvJMIXQck4NYBQ'
+                                    displayText: '𝙔𝙤𝙪 📺',
+                                    url: 'chat.whatsapp.com/GeWPLmclHaVHsF0GymCcJz'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -236,9 +236,9 @@ function clockString(ms) {
 
 function ucapan() {
         const hour_now = moment.tz('Asia/Jakarta').format('HH')
-        var ucapanWaktu = 'Pagi kak'
+        var ucapanWaktu = 'Ohayo kak'
         if (hour_now >= '03' && hour_now <= '10') {
-          ucapanWaktu = 'Pagi kak'
+          ucapanWaktu = 'ohayo kak'
         } else if (hour_now >= '10' && hour_now <= '15') {
           ucapanWaktu = 'Siang kak'
         } else if (hour_now >= '15' && hour_now <= '17') {
@@ -246,7 +246,7 @@ function ucapan() {
         } else if (hour_now >= '17' && hour_now <= '18') {
           ucapanWaktu = 'Selamat Petang kak'
         } else if (hour_now >= '18' && hour_now <= '23') {
-          ucapanWaktu = 'Malam kak'
+          ucapanWaktu = 'Oyassumi kak'
         } else {
           ucapanWaktu = 'Selamat Malam!'
         }	
