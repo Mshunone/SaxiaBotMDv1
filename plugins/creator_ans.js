@@ -5,7 +5,7 @@ let dana = global.dana
 let pulsa = global.pulsa
 let gopay = global.gopay
 let numberowner = global.numberowner
-let anu = `*––––––『 INFO CREATOR DEK 』––––––*
+let anu = `*––––『 INFO CREATOR DEK 』––––*
 `
   conn.send2ButtonImg(m.chat, fla + teks, anu,wm, 'Nomor creator', '.owner2', 'SosialMedia Creator', '.sosialmedia', m) 
 }
