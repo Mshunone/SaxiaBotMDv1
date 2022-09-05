@@ -6,10 +6,10 @@ handler.all = async function (m, { isBlocked }) {
     // ketika ada yang invite/kirim link grup di chat pribadi
     if ((m.mtype === 'groupInviteMessage' || m.text.startsWith('Undangan untuk bergabung') || m.text.startsWith('Invitation to join') || m.text.startsWith('Buka tautan ini')) && !m.isBaileys && !m.isGroup) {
     let teks = `Invite Group
-• 15 Day / Rp 10k
-• 30 Day / Rp 15k
+• 1 bulan / Rp 10k dst
+• 1 tahun / Rp 50k dst
 
-Jika berminat hubungi: @${global.owner[0]} untuk order:)
+Jika berminat hubungi: @${global.owner[0]} untuk order. ohya ada yang free tapi bukan gru ini yok tanya owner
 `
     this.reply(m.chat, teks, m)
     const data = global.owner.filter(([id, isCreator]) => id && isCreator)
