@@ -14,7 +14,7 @@ let [number, pesan] = text.split `|`
     let chat = `${number}`
     var nomor = m.sender
     let chat1 = `Hi Saya Bot Ada Yang Kirim Pesan Ke Kamu
-Seseorang Temanmu
+Seseorang Manusia
 (Pengirim Rahasia)
 
 ⬡──⬡─────────⬡──⬡
@@ -39,7 +39,7 @@ Contoh: #chat 628xxxxxxxxxx|hai owner`
     
 ≫ Spam
 ≫ Chat Aneh Aneh
-≫ Berantem`
+≫ Eregsi`
 
  let haori1 = `Sukses Mengirim Pesan
 👥 Dari : wa.me/${nomor.split("@s.whatsapp.net")[0]}
