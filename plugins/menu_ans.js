@@ -1,6 +1,6 @@
 const { default: makeWASocket, BufferJSON, WA_DEFAULT_EPHEMERAL, generateWAMessageFromContent, downloadContentFromMessage, downloadHistory, proto, getMessage, generateWAMessageContent, prepareWAMessageMedia } = require('@adiwajshing/baileys')
 let fs = require('fs')
-let owner = 6285850539404
+let owner = 6283805685278
 let wa = '0'
 let handler = async (m) => {
 let jarot = `
@@ -12,38 +12,38 @@ let jarot = `
             hydratedTemplate: {
                 hydratedContentText: jarot,
                 imageMessage: message.imageMessage, 
-           hydratedFooterText: '📮Note : HALO KAK SAYA OSCARBOTZ, JIKA KAMU MENGGUNAKAN WA LAMA ATAU WA MOD, DAN BUTTON TIDAK KELIATAN, LANGSUNG AJA KETIK .allmenu',
+           hydratedFooterText: '📮Note : HALO DEK GWE SAXIA`BOT, KALO MAU MENGGUNAKAN WA LAMA ATAU WA MOD, DAN BUTTON TIDAK KELIATAN, LANGSUNG AJA KETIK .allmenu ATAU .menu2',
            hydratedButtons: [{
              urlButton: {
-               displayText: '🔮𝙂𝙧𝙤𝙪𝙥𝘽𝙤𝙩🔮',
-               url: 'https://chat.whatsapp.com/IqZke0cAG6G3iVsnB9myfL'
+               displayText: '🔮GRUB BOT🔮',
+               url: 'https://chat.whatsapp.com/GeWPLmclHaVHsF0GymCcJz'
              }
 
            },
                 {
                urlButton: {
-               displayText: '🐻𝙔𝙤𝙪𝙩𝙪𝙗𝙚 𝘾𝙧𝙚𝙖𝙩𝙤𝙧🐻',
-               url: 'https://youtube.com/channel/UCW7iXlE7TgvJMIXQck4NYBQ'
+               displayText: '🐻YTTA🐻',
+               url: 'https://youtube.com'
              }
 
            },
                {
              quickReplyButton: {
-               displayText: '𝙎𝙚𝙬𝙖🚀',
+               displayText: 'SEWA BOT🚀',
                id: '.sewabot',
              }
              
            },
                {
              quickReplyButton: {
-               displayText: '𝙎𝙘𝙧𝙞𝙥𝙩🎗️',
+               displayText: 'GA ADA SC SC AN🎗️',
                id: '.sc',
              }
              
              },
                {
              quickReplyButton: {
-               displayText: '𝙇𝙞𝙨𝙩 𝘾𝙤𝙢𝙢𝙖𝙣𝙙📖',
+               displayText: 'KAYAK NYA ALLMENU📖',
                id: '.allmenu',
              }
 
