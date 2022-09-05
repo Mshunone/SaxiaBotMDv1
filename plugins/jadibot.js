@@ -5,32 +5,33 @@ let dana = global.dana
 let pulsa = global.pulsa
 let gopay = global.gopay
 let numberowner = global.numberowner
-let anu = `Hallo mypren 👋
-*MAAF KAK FITUR JADIBOT TIDAK ADA DI DALAM FITUR KAMI*
-⟩» *Kalau kakak mau jadi bot silahkan jasa run aja kak*
+let anu = `Hallo Mypren 👋
+*MAAF dek FITUR JADIBOT TIDAK ADA DI DALAM FITUR bot*
+⟩» *Kalau kakak mau jadi bot silahkan jasa run aja 50k paket lengkap*
           
-━━━〔 ıll *HARGA* llı 〕━━ꕥ
+━━━〔 > *HARGA* < 〕━━ꕥ
 ⬡ *1 minggu:* 15.000
 ⬡ *3 minggu:* 25.000
 ⬡ *Tutorial Jadibot:* 50.000
 ┗━━━━━━━━━━━━━━━━━━ꕥ
-┏━━━〔 ıll *PAYMENT* llı 〕━━ꕥ
-⬡ *DANA:* ${6285850539404}
-⬡ *GOPAY:* ${6285850539404}
-⬡ *Youtube:* ${'https://youtube.com/channel/UCW7iXlE7TgvJMIXQck4NYBQ'}
+┏━━━〔 > *PAYMENT* < 〕━━ꕥ
+⬡ *DANA:* ${-}
+⬡ *GOPAY:* ${-}
+⬡ *Grub Bot:* ${'https://chat.whatsapp.com/GeWPLmclHaVHsF0GymCcJz'}
 ┗━━━━━━━━━━━━━━━━━━ꕥ
-┏━━〔 ıll *RULES* llı 〕━ꕥ
+┏━━〔 > *RULES* < 〕━ꕥ
 ⬡ [❗] *Dana yang sudah masuk tidak bisa di kembalikan*
-⬡ [❗] *Kalau akunmu ke banned bukan urusan saya*
+⬡ [❗] *Kalau akunmu ke banned bukan urusan gwehj*
 ┗━━━━━━━━━━ꕥ
 Jika anda berminat hubungi nomor di bawah!!
-⟩» *jangan lupa donasi kak* «⟨
-Terimakasih yang sudah mendonasikan untuk bot
+⟩» *jangan lupa donasi Dek* «⟨
+Terimakasih yang sudah donasi
+Yang blom kamu taik pencet doang
 
 Contact person jasa run:
 wa.me/${'6285850539404'} (Owner)
 
-*Follow Instagram ku juga kak😼*`
+*Follow Instagram ku Ama Join GRUB SU*`
   conn.send2ButtonImg(m.chat, fla + teks, anu, instagram, 'Donasi', '.donasi', 'SewaBot', '.sewaoscar', m) 
 }
 handler.help = ['jadibot']
