@@ -2,7 +2,7 @@ const { default: makeWASocket, BufferJSON, WA_DEFAULT_EPHEMERAL, generateWAMessa
 let fs = require('fs')
 let handler = async (m) => {
 let jarot = `
-╭─────[ *RULES* ]─────✧
+╭─────[ *RULES BOT* ]─────✧
 ┴
 │¹ Dilarang Hina Bot / Owner
 │² Dilarang Spam Command
@@ -14,10 +14,10 @@ let jarot = `
 │⁸ Dilarang Meniru pesan Bot
 │⁹ Bot Tidak Menerima Save Kontak
 │¹⁰ Dilarang Chat Owner Ga Jelas
-│¹¹ No plagiat
+│¹¹ No plagiat DEK
 ┬
 ╰──────────···
-╭─────[ *HUKUM* ]─────✧
+╭─────[ *HUKUM AN NYA* ]─────✧
 ┴
 │ 1 & 11 = Block + banned permanent
 │ 2,4,6 & 8 = Banned sementara
@@ -37,14 +37,14 @@ let jarot = `
            hydratedButtons: [{
              urlButton: {
                displayText: '𝙂𝙧𝙤𝙪𝙥 𝘽𝙤𝙩🎮',
-               url: 'https://chat.whatsapp.com/IqZke0cAG6G3iVsnB9myfL'
+               url: 'https://chat.whatsapp.com/GeWPLmclHaVHsF0GymCcJz'
              }
 
            },
                 {
                urlButton: {
                displayText: '𝙈𝙮 𝙒𝙚𝙗🔮',
-               url: 'https://youtube.com/channel/UCW7iXlE7TgvJMIXQck4NYBQ'
+               url: 'https://chat.whatsapp.com/GeWPLmclHaVHsF0GymCcJz'
              }
 
            },
