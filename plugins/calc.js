@@ -4,7 +4,7 @@ let handler = async (m, { conn, text }) => {
   if (id in conn.math) {
     clearTimeout(conn.math[id][3])
     delete conn.math[id]
-    m.reply('Permainan diakhiri...\nKarena anda cheat..!!')
+    m.reply('Permainan diakhiri...\nKarena anda cheat broh..!!')
   }
   let val = text
     .replace(/[^0-9\-\/+*×÷πEe()piPI/]/g, '')
