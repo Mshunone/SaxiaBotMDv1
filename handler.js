@@ -285,7 +285,7 @@ module.exports = {
                 } else db.data.users[m.sender] = {
                     exp: 0,
                     limit: 15,
-                    joinlimit: 0,
+                    joinlimit: 1,
                     spammer: 0,
                     limitspam: 0,
                     money: 10000,
