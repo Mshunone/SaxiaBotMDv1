@@ -33,7 +33,7 @@ module.exports = {
                 if (user) {
                     if (!isNumber(user.exp)) user.exp = 0
                     if (!isNumber(user.limit)) user.limit = 15
-                    if (!isNumber(user.joinlimit)) user.joinlimit = 0
+                    if (!isNumber(user.joinlimit)) user.joinlimit = 1
                     if (!isNumber(user.money)) user.money = 100000
                     if (!isNumber(user.bank)) user.bank = 100000
                     if (!isNumber(user.lastclaim)) user.lastclaim = 0
