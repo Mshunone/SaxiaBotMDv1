@@ -10,20 +10,20 @@ let jarot = `
     const template = generateWAMessageFromContent(m.key.remoteJid, proto.Message.fromObject({
         templateMessage: {
             hydratedTemplate: {
-                hydratedContentText: jarot,
+                hydratedContentText: 9999,
                 imageMessage: message.imageMessage, 
            hydratedFooterText: '',
            hydratedButtons: [{
              urlButton: {
                displayText: 'Store Jadibot',
-               url: 'https://wa.me/6285850539404?text=assalamualaikum'
+               url: 'https://wa.me/6285850539404?text=assalamualaikum banh mau jadibot'
              }
 
            },
                 {
                urlButton: {
                displayText: 'Store Sewa Bot',
-               url: 'https://wa.me/6283805685278?text=assalamualaikum'
+               url: 'https://wa.me/6283805685278?text=Permisi banh mau sewa bot'
              }
            }]
          }
