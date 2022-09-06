@@ -8,11 +8,11 @@ global.owner = [
   // [number, dia creator/owner?, dia developer?]
 ] // Put your number here
 global.fotonya1 = 'https://i.pinimg.com/originals/e9/d5/46/e9d5466eed88731e3dd4211d2cc89c9b.jpg' //ini kalo mau di ganti silahkan ganti aja
-global.fotonya2 = 'https://telegra.ph/file/00ca947f49354f6c108da.jpg' //gw lupa nih foto apa aja:v
+global.fotonya2 = 'https://i.pinimg.com/originals/64/fe/94/64fe94513b3346c1a15ddd0129552493.jpg' //gw lupa nih foto apa aja:v
 global.fotonya3 = 'https://i.pinimg.com/originals/e9/d5/46/e9d5466eed88731e3dd4211d2cc89c9b.jpg' //ini juga ganti
-global.fotonya4 = 'https://telegra.ph/file/00ca947f49354f6c108da.jpg' //ini juga ganti
+global.fotonya4 = 'https://i.pinimg.com/originals/64/fe/94/64fe94513b3346c1a15ddd0129552493.jpg' //ini juga ganti
 global.fotonya5 = 'https://i.pinimg.com/originals/e9/d5/46/e9d5466eed88731e3dd4211d2cc89c9b.jpg' //ini juga ganti
-global.fotonya6 = 'https://telegra.ph/file/00ca947f49354f6c108da.jpg' //ini ganti pakai foto sosialmedia mu
+global.fotonya6 = 'https://i.pinimg.com/originals/64/fe/94/64fe94513b3346c1a15ddd0129552493.jpg' //ini ganti pakai foto sosialmedia mu
 global.fotonya7 = 'hhttps://i.pinimg.com/originals/e9/d5/46/e9d5466eed88731e3dd4211d2cc89c9b.jpg'
 global.instagram = 'https://www.instagram.com/mfordxcl/'
 global.dana = '--'
