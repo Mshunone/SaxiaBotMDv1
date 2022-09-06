@@ -36,14 +36,14 @@ let jarot = `
            },
                {
              quickReplyButton: {
-               displayText: 'GA ADA SC SC AN🎗️',
-               id: '.sc',
+               displayText: 'MANFESS🎗️',
+               id: '.menfess',
              }
              
              },
                {
              quickReplyButton: {
-               displayText: 'KAYAK NYA ALLMENU📖',
+               displayText: 'ALLMENU📖',
                id: '.allmenu',
              }
 
