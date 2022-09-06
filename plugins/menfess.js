@@ -5,11 +5,11 @@ let handler = async(m, { conn, text }) => {
 let [number, pesan] = text.split `|`
 
     if (!number) return conn.reply(m.chat, 'Penggunaan .chat nomor|pesan untuknya\nContoh : .chat 628xxxxxxxxxx|hai owner', m, {quoted: m, thumbnail: await (await fetch('https://i.pinimg.com/originals/e9/d5/46/e9d5466eed88731e3dd4211d2cc89c9b.jpg')).buffer(),
-        contextInfo: { forwardingScore: 999, isForwarded: true, externalAdReply: {title: 'Gunakan Dengan Bijak Yah Kak', sourceUrl: 'http://wa.me/6283805685278?text=.chat 6283805685278|Hi Owner 🌹', body: 'Menfess By SaxiaMD', thumbnail: await (await fetch('https://i.pinimg.com/originals/64/fe/94/64fe94513b3346c1a15ddd0129552493.jpg')).buffer(),}}})
+        contextInfo: { forwardingScore: 999, isForwarded: true, externalAdReply: {title: 'Gunakan Dengan Bijak Yah Kak', sourceUrl: 'http://wa.me/6285163195629?text=.chat 6283805685278|Hi Owner 🌹', body: 'Menfess By SaxiaMD', thumbnail: await (await fetch('https://i.pinimg.com/originals/64/fe/94/64fe94513b3346c1a15ddd0129552493.jpg')).buffer(),}}})
     if (!pesan) return conn.reply(m.chat, 'Silahkan masukan pesannya', m, {quoted: m, thumbnail: await (await fetch('https://telegra.ph/file/b9a32ee41970d7a71b476.jpg')).buffer(),
-        contextInfo: { forwardingScore: 999, isForwarded: true, externalAdReply: {title: 'Gunakan Dengan Bijak Yah Kak', sourceUrl: 'http://wa.me/6283805685278?text=.chat 6283805685278|Hi Owner 🌹', body: 'Menfess By SaxiaMD', thumbnail: await (await fetch('https://i.pinimg.com/originals/e9/d5/46/e9d5466eed88731e3dd4211d2cc89c9b.jpg')).buffer(),}}})
+        contextInfo: { forwardingScore: 999, isForwarded: true, externalAdReply: {title: 'Gunakan Dengan Bijak Yah Kak', sourceUrl: 'http://wa.me/6285163195629?text=.chat 6283805685278|Hi Owner 🌹', body: 'Menfess By SaxiaMD', thumbnail: await (await fetch('https://i.pinimg.com/originals/e9/d5/46/e9d5466eed88731e3dd4211d2cc89c9b.jpg')).buffer(),}}})
     if (text > 700) return conn.reply(m.chat, 'Teks Kepanjangan!', m, {quoted: m, thumbnail: await (await fetch('https://telegra.ph/file/b9a32ee41970d7a71b476.jpg')).buffer(),
-        contextInfo: { forwardingScore: 999, isForwarded: true, externalAdReply: {title: 'Gunakan Dengan Bijak Yah Dek', sourceUrl: 'http://wa.me/6283805685278?text=.chat 6283805685278|Hi Owner 🌹', body: 'Menfess By SaxiaMD', thumbnail: await (await fetch('https://i.pinimg.com/originals/64/fe/94/64fe94513b3346c1a15ddd0129552493.jpg')).buffer(),}}})
+        contextInfo: { forwardingScore: 999, isForwarded: true, externalAdReply: {title: 'Gunakan Dengan Bijak Yah Dek', sourceUrl: 'http://wa.me/6285163195629?text=.chat 6283805685278|Hi Owner 🌹', body: 'Menfess By SaxiaMD', thumbnail: await (await fetch('https://i.pinimg.com/originals/64/fe/94/64fe94513b3346c1a15ddd0129552493.jpg')).buffer(),}}})
 
     let chat = `${number}`
     var nomor = m.sender
