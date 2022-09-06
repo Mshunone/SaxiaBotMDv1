@@ -3,7 +3,7 @@ let fs = require('fs')
 let handler = async (m) => {
 let jarot = `
 •·––––––––––––––––––––––––––·•
-❑ *Nama* : Shunji
+❑ *Nama* : Mrcl
 ❑ *Umur* : XX Tahun
 ❑ *Kelas* : Sekolah
 ❑ *Ulang Tahun* : 02 Februari 200X
