@@ -2,22 +2,22 @@ let fetch = require('node-fetch')
 let teks = 'Donasi'
 let handler = async (m, { conn }) => conn.send2ButtonLoc(m.chat, await (await fetch('https://telegra.ph/file/c6d47e0aa9dca2263bee9.png'+ teks)).buffer(), `
 
-*𝐇i 𝐁𝐚𝐧𝐡 𝐃𝐨𝐧𝐚𝐬𝐢 𝐲𝐮𝐤 𝐁𝐢𝐚𝐫 𝐁𝐨𝐭 𝐀𝐤𝐭𝐢𝐟 𝐒𝐞𝐥𝐚𝐥𝐮👋*
+*Hamlo Banh yok donasi biar bot on terus👋*
 ╔═══════════════════
-║ _*DONASI UNTUK*_  Owner baik
+║ _*DONASI UNTUK GWEHJ*_  
 ╠═══════════════════
 ║          ❉ 〔 *𝗗𝗢𝗡𝗔𝗦𝗜* 〕 ❉
-║-> *DANA* : 
+║-:> *DANA* : 
 ║> CHT OWNER 
-║-> *GOPAY*
+║-:> *GOPAY*
 ║> CHT OWNER 
-║-> *SHOPPAY*:
+║-:> *SHOPPAY*:
 ║> CHT OWNER 
 ╰═══════════════════
 ╔════════════════════
 ║ *Donasi Via Ikuti Sosial media YOK*
 ╠════════════════════
-║     >> 〔 SOOCIAL MEDIAK OWNER 〕 <<
+║   >> 〔 SOOCIAL MEDIAK OWNER 〕 <<
 ║➸ *Instagram*
 ║ Ga main ige aslinya
 ║➸ *Grub Bot*
