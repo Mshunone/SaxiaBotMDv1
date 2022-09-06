@@ -4,35 +4,35 @@ let handler = async (m) => {
 let jarot = `
 ╭─❑ 「 *SOSIAL MEDIA* 」 ❑──
 │ Follow sosial media
-│ owner yuk biar saling
-│ kenal...
+│ Owner kang nolep jadi seadanya
+│ Sahlam kenal...
 ╰❑
 	`.trim()
   let message = await prepareWAMessageMedia({ image: await (await require('node-fetch')(fotonya6)).buffer()}, { upload: conn.waUploadToServer }) 
     const template = generateWAMessageFromContent(m.key.remoteJid, proto.Message.fromObject({
         templateMessage: {
             hydratedTemplate: {
-                hydratedContentText: jarot,
+                hydratedContentText: 9999,
                 imageMessage: message.imageMessage, 
            hydratedFooterText: '',
            hydratedButtons: [{
              urlButton: {
-               displayText: 'Youtube creator📨',
-               url: 'https://youtube.com/channel/UCW7iXlE7TgvJMIXQck4NYBQ'
+               displayText: 'IGE gwe 📨',
+               url: 'https://www.instagram.com/mfordxcl/'
              }
 
            },
                 {
                urlButton: {
-               displayText: 'Instagram creator🔥',
-               url: 'https://instagram.com/Jarotr_'
+               displayText: 'Wangsaf Owner🔥',
+               url: 'https://wa.me/6283805685278'
              }
 
            },
                {
 urlButton: {
                displayText: 'Group Bot Creator📸',
-               url: 'https://chat.whatsapp.com/IqZke0cAG6G3iVsnB9myfL'
+               url: 'https://chat.whatsapp.com/GeWPLmclHaVHsF0GymCcJz'
              }
 
            },
