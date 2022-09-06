@@ -6,7 +6,7 @@
     if (!who) throw `tag member!`
     if (global.prems.includes(who.split`@`[0])) throw 'dia sudah premium!'
     global.prems.push(`${who.split`@`[0]}`)
-    conn.reply(m.chat, `@${who.split`@`[0]} Selamat kamu menjadi user premium`, m, {
+    conn.reply(m.chat, `@${who.split`@`[0]} Selamat lu jadi user premium`, m, {
         contextInfo: {
             mentionedJid: [who]
         }
@@ -33,7 +33,7 @@ let handler = async (m, { conn, text, usedPrefix }) => {
   hl[0] = no(hl[0]) + "@s.whatsapp.net"
   hl[1] = text.split('|')[1]
   
-  if (!text) return conn.reply(m.chat, `*❏ GET NUMBER*\n\n• ${usedPrefix}prem number|days\n*Example:* ${usedPrefix}prem 6289654360447|99\n\n• ${usedPrefix}prem @tag|days\n*Example:* ${usedPrefix}prem @6289654360447|99`, m)
+  if (!text) return conn.reply(m.chat, `*❏ GET NUMBER*\n\n• ${usedPrefix}prem number|days\n*Example:* ${usedPrefix}prem 6283805685278|99\n\n• ${usedPrefix}prem @tag|days\n*Example:* ${usedPrefix}prem @6283805685278|99`, m)
   if (typeof db.data.users[hl[0]] == 'undefined') throw 'Pengguna tidak ada didalam data base'
   var jumlahHari = 86400000 * hl[1]
   // var jumlahHari = 1000 * text
