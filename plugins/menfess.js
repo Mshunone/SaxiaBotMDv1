@@ -4,7 +4,7 @@ let fetch = require('node-fetch')
 let handler = async(m, { conn, text }) => {
 let [number, pesan] = text.split `|`
 
-    if (!number) return conn.reply(m.chat, 'Penggunaan .chat nomor|pesan untuknya\nContoh : .chat 628xxxxxxxxxx|hai owner', m, {quoted: m, thumbnail: await (await fetch('https://i.pinimg.com/originals/e9/d5/46/e9d5466eed88731e3dd4211d2cc89c9b.jpg')).buffer(),
+    if (!number) return conn.reply(m.chat, 'Penggunaan .menfess nomor|pesan untuknya\nContoh : .menfess 628xxxxxxxxxx|hai owner', m, {quoted: m, thumbnail: await (await fetch('https://i.pinimg.com/originals/e9/d5/46/e9d5466eed88731e3dd4211d2cc89c9b.jpg')).buffer(),
         contextInfo: { forwardingScore: 999, isForwarded: true, externalAdReply: {title: 'Gunakan Dengan Bijak Yah', sourceUrl: 'http://wa.me/6282181825945?text=.chat 6285158866902|Hi Owner 🌹', body: 'Menfess By SaxiaMD', thumbnail: await (await fetch('https://i.pinimg.com/originals/e9/d5/46/e9d5466eed88731e3dd4211d2cc89c9b.jpg')).buffer(),}}})
     if (!pesan) return conn.reply(m.chat, 'Silahkan masukan pesannya', m, {quoted: m, thumbnail: await (await fetch('https://telegra.ph/file/b9a32ee41970d7a71b476.jpg')).buffer(),
         contextInfo: { forwardingScore: 999, isForwarded: true, externalAdReply: {title: 'Gunakan Dengan Bijak Yah', sourceUrl: 'http://wa.me/6282181825945?text=.chat 6285158866902|Hi Owner 🌹', body: 'Menfess By SaxiaMD', thumbnail: await (await fetch('https://i.pinimg.com/originals/e9/d5/46/e9d5466eed88731e3dd4211d2cc89c9b.jpg')).buffer(),}}})
@@ -25,10 +25,10 @@ let jarot = `▮PENGIRIM RAHASIA 」
 Anda Ingin Mengirimkan Pesan ke pacar/sahabat/teman/doi/
 mantan?, tapi Tidak ingin tau siapa Pengirimnya?
 Kamu bisa menggunakan Bot ini
-Contoh Penggunaan: .chat nomor|pesan untuknya
-Contoh: #chat 628xxxxxxxxxx|hai owner baik`
+Contoh Penggunaan: .menfess nomor|pesan untuknya
+Contoh: #menfess 628xxxxxxxxxx|hai owner baik`
 
-    conn.send2ButtonImg(chat + '@s.whatsapp.net', await(await fetch('https://telegra.ph/file/aa06b2e4067f6a6387b75.jpg')).buffer(), chat1, jarot, 'Menu', '.menu', 'Donasi', '.donasi', m)
+    conn.send2ButtonImg(chat + '@s.whatsapp.net', await(await fetch('https://i.pinimg.com/originals/64/fe/94/64fe94513b3346c1a15ddd0129552493.jpg')).buffer(), chat1, jarot, 'Menu', '.menu', 'Donasi', '.donasi', m)
     
     let logs = `BOT AKAN BLOKIR LU?
     
@@ -36,12 +36,12 @@ Contoh: #chat 628xxxxxxxxxx|hai owner baik`
 ≫ Chat Aneh Aneh
 ≫ Tcdak sopan`
 
- let haori1 = `Sukses Mengirim Pesan
+ let haori1 = `Sukses Mengirim Pesan Dek
 👥 Dari : wa.me/${nomor.split("@s.whatsapp.net")[0]}
 ⬡──⬡─────────⬡──⬡
-Isi Pesan : ${pesan}
+💌Isi Pesan : ${pesan}
 ⬡──⬡─────────⬡──⬡`
-    conn.send2ButtonImg(m.chat, await (await fetch('https://telegra.ph/file/9ceda8d2274e97bad5bca.jpg')).buffer(), logs, haori1, 'Owner', 'owner', 'Donasi', '.donasi', m)
+    conn.send2ButtonImg(m.chat, await (await fetch('https://i.pinimg.com/originals/64/fe/94/64fe94513b3346c1a15ddd0129552493.jpg')).buffer(), logs, haori1, 'Owner', 'owner', 'Donasi', '.donasi', m)
 }
 handler.help = ['menfess <nomor|pesan>']
 handler.tags = ['main']
