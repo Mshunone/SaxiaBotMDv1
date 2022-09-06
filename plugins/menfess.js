@@ -19,12 +19,12 @@ Seseorang Temanmu
 ⬡──⬡─────────⬡──⬡
 💌 Pesan : ${pesan}
 ⬡──⬡─────────⬡──⬡
-Maaf Anda Belum Bisa Membalas ke Pengirim`
+Maaf LU Belum Bisa Membalas ke Pengirim jadi Post sw aja`
 
 let jarot = `▮PENGIRIM RAHASIA 」 
-Anda Ingin Mengirimkan Pesan ke pacar/sahabat/teman/doi/
-mantan?, tapi Tidak ingin tau siapa Pengirimnya?
-Kamu bisa menggunakan Bot ini
+Lu Mau Mengirimkan Pesan ke Pacar/Sahabat/Teman/
+Mantan/Crush?, Tapi ga tau siapa Pengirimnya?
+Kamu bisa menggunakan Bot ini. Free dek!!
 Contoh Penggunaan: .menfess nomor|pesan untuknya
 Contoh: #menfess 628xxxxxxxxxx|hai owner baik`
 
