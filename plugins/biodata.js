@@ -3,51 +3,51 @@ let fs = require('fs')
 let handler = async (m) => {
 let jarot = `
 •·––––––––––––––––––––––––––·•
-❑ *Nama* : Jarot
-❑ *Umur* : 18 Tahun
-❑ *Kelas* : Lulus
-❑ *Ulang Tahun* : 30 Januari 2004
-❑ *Alamat* : AS, AS, Pelabuhan
+❑ *Nama* : Shunji
+❑ *Umur* : XX Tahun
+❑ *Kelas* : Sekolah
+❑ *Ulang Tahun* : 02 Februari 200X
+❑ *Alamat* : Yang ytta ytta aja
 •·––––––––––––––––––––––––––·•
 	`.trim()
   let message = await prepareWAMessageMedia({ image: await (await require('node-fetch')(fotonya7)).buffer()}, { upload: conn.waUploadToServer }) 
     const template = generateWAMessageFromContent(m.key.remoteJid, proto.Message.fromObject({
         templateMessage: {
             hydratedTemplate: {
-                hydratedContentText: jarot,
+                hydratedContentText: Shunji,
                 imageMessage: message.imageMessage, 
-           hydratedFooterText: 'salam kenal bang👋',
+           hydratedFooterText: 'salam kenal banh👋',
            hydratedButtons: [{
              urlButton: {
-               displayText: '𝙂𝙧𝙤𝙪𝙥 𝘽𝙤𝙩 𝙊𝙛𝙛𝙘 🐈',
-               url: 'https://chat.whatsapp.com/IqZke0cAG6G3iVsnB9myfL'
+               displayText: 'Group official',
+               url: 'https://chat.whatsapp.com/GeWPLmclHaVHsF0GymCcJz'
              }
 
            },
                 {
                urlButton: {
-               displayText: '𝙇𝙞𝙣𝙠 𝙔𝙤𝙪𝙏𝙪𝙗𝙚 🌍',
-               url: 'https://youtube.com/channel/UCW7iXlE7TgvJMIXQck4NYBQ'
+               displayText: 'YTTA 🌍',
+               url: 'https://chat.whatsapp.com/EUexY1yhxAB6wjD9ZP6MOU'
              }
 
            },
                {
              quickReplyButton: {
-               displayText: '𝙎𝙚𝙬𝙖 𝘽𝙤𝙩 🏧',
+               displayText: 'Sewa Bot 🏧',
                id: '.sewa',
              }
              
            },
                {
              quickReplyButton: {
-               displayText: '𝙈𝙚𝙣𝙪 ⛽',
+               displayText: 'Menu ⛽',
                id: '.menu',
              }
              
              },
                {
              quickReplyButton: {
-               displayText: '𝘿𝙤𝙣𝙖𝙨𝙞 𝘽𝙖𝙣𝙝 📮',
+               displayText: 'Donasi yok 📮',
                id: '.donasi',
              }
 
