@@ -184,22 +184,22 @@ let handler = async (m, { conn, usedPrefix: _p }) => {
                             hydratedFooterText:'Ⓟ premium | Ⓛ limit',
                             hydratedButtons: [{
                                 urlButton: {
-                                    displayText: '【ytta⛽】',
+                                    displayText: '【Ytta⛽】',
                                     url: 'https://chat.whatsapp.com/GeWPLmclHaVHsF0GymCcJz'
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: '【𝙎𝙘𝙧𝙞𝙥𝙩🎗️】',
-                                    id: '/sc'
+                                    displayText: '【Sewa nya nona🎗️】',
+                                    id: '/sewa'
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: '【𝙎𝙚𝙬𝙖🚀】',
+                                    displayText: '【Sewa nya tuan🚀】',
                                     id: '/sewa'
                                 }  
                             }, {
                                 quickReplyButton: {
-                                    displayText: '【𝙊𝙬𝙣𝙚𝙧🎀】',
+                                    displayText: '【Owner🎀】',
                                     id: '/owner'
                                 }
                             }]
