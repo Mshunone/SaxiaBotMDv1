@@ -4,7 +4,7 @@ let handler = async (m, { conn, text, isOwner, groupMetadata }) => {
     let [_, code, expired] = text.match(linkRegex) || []
     if (!code) throw 'Link invalid!'
     if (global.db.data.users[m.sender].joinlimit == 0) return m.reply('Maaf kamu sudah tidak bisa menggunakan free join..\nHarap hubungi *owner* kami')
-    global.db.data.users[m.sender].joinlimit -= 1
+    global.db.data.users[m.sender].joinlimit -= 0
    // let id = m.chat
    // let groupMetadata = await conn.groupMetadata(m.chat)
     let res = await conn.groupAcceptInvite(code)
