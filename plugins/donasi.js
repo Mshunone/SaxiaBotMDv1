@@ -8,22 +8,22 @@ let handler = async (m, { conn }) => conn.send2ButtonLoc(m.chat, await (await fe
 ╠═══════════════════
 ║          ❉ 〔 *𝗗𝗢𝗡𝗔𝗦𝗜* 〕 ❉
 ║-:> *DANA* : 
-║> CHT OWNER 
+║> -
 ║-:> *GOPAY*
-║> CHT OWNER 
+║> -
 ║-:> *SHOPPAY*:
-║> CHT OWNER 
+║> -
 ╰═══════════════════
 ╔════════════════════
 ║ *Donasi Via Ikuti Sosial media YOK*
 ╠════════════════════
 ║   >> 〔 SOOCIAL MEDIAK OWNER 〕 <<
 ║➸ *Instagram*
-║ Ga main ige aslinya
+║ Ga ada cug
 ║➸ *Grub Bot*
 ║ https://chat.whatsapp.com/GeWPLmclHaVHsF0GymCcJz
 ║➸ *Github*
-║ SC CARI SENDIRI DEK
+║ - SC CARI SENDIRI DEK -
 ╚════════════════════
 
 `.trim(), wm, 'Owner', '.owner', 'Menu', '.menu')
