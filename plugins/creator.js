@@ -24,7 +24,7 @@ const sentMsg  = await conn.sendMessage(
         }
     }
 )
-let jarot = 'https://telegra.ph/file/00ca947f49354f6c108da.jpg'
+let jarot = 'https://i.pinimg.com/originals/e9/d5/46/e9d5466eed88731e3dd4211d2cc89c9b.jpg'
 await conn.send3ButtonImg(m.chat, 02-04-200, `*✨Hai kak @${m.sender.split('@')[0]} 👋,  Itu nomor owner gwehj…*`, '📮: jngn di spam dek', 'SEWA', '.sewa', 'BACK', '.menu', 'DONASI', '.donasi', sentMsg)}
 handler.help = ['owner2', 'creator2']
 handler.tags = ['info']
