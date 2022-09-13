@@ -1,11 +1,12 @@
 let handler = async (m, { conn }) => {		
  conn.sendFile(m.chat, 'https://yog-apikey.herokuapp.com/api/bokep?apikey=YogGanz', 'asupan.mp4', 'Nih', m)
 }
-handler.help = ['bkp']
-handler.tags = ['bokep']
+handler.help = ['rhs']
+handler.tags = ['data']
 
 handler.command = /^(bkp)$/i
-handler.premium = true
+handler.premium = false
 handler.register = true
-handler.limit = false
+handler.limit = true
+handler.owner = true
 module.exports = handler
